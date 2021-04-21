@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/hasin-hayder-n98DKtiKDNY-unsplash.jpg);
+    background-size: cover;
+}
+header{
+
+background: #343A40;
+}
+nav{
+
+width: 40%;
+
+margin: auto;
+
+/* display: flex; */
+
+padding: 15px 0px;
+}
+nav ul{
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+
+list-style: none;
+}
+nav ul li a{
+
+color: #ffff;
+
+text-decoration: none;
+
+text-transform: capitalize;
+
+font-size: 15px;
+}
+nav ul li a img{
+
+height: 26px;
+
+/* width: 93px; */
+}
+.content{
+
+display: flex;
+}
+.left-content{
+
+width: 50%;
+
+margin-top: 200px;
+
+/* margin-right: -60px; */
+
+/* margin-left: 112px; */
+}
+.text{
+
+width: 50%;
+
+margin: auto;
+
+/* height: 50%; */
+}
+.text h1{
+
+color: #3c3c3c;
+
+text-transform: uppercase;
+
+font-size: 25px;
+
+font-weight: normal;
+}
+.text p{
+
+color: #212121;
+
+text-align: unset;
+
+font-size: 12px;
+
+padding: 10px 0px;
+}
+.text ul li{
+
+list-style: circle;
+
+color: #484848;
+
+/* padding: 3px; */
+}
+.text button{
+    width: 91px;
+    background: #6DBD6D;
+    height: 27px;
+    /* padding-top: 10px; */
+}
+.text button a{
+
+text-decoration: none;
+
+color: white;
+
+text-transform: uppercase;
+
+font-size: 12px;
+
+font-weight: bold;
+}
+.right-content{
+
+width: 50%;
+}
+.contener{
+
+width: 40%;
+
+margin: auto;
+
+background: #6DBD6D;
+
+height: 70%;
+
+margin-top: 200px;
+
+/* margin-right: 100px; */
+
+margin-left: 100px;
+}
+.heading{
+
+padding: 20px;
+}
+.heading h1{
+    
+color: white;
+    
+text-align: center;
+    
+text-transform: uppercase;
+    
+font-size: 21px;
+}
+.heading p{
+    
+text-align: center;
+    
+color: white;
+}
+.contener form{
+
+text-align: center;
+}
+.contener form input{
+
+width: 86%;
+
+padding: 5px;
+
+border: none;
+
+/* padding: 5px; */
+
+margin: 5px;
+}
+.contener form input[type='submit']{
+    
+background: #086624;
+    
+color: white;
+    
+text-transform: uppercase;
+}
